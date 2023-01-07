@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main id="container">
+        <form id="login">
+            <div id="header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <div id="social_media">
+                <a href="https://github.com/renzopereira?tab=repositories" target="_blank">
+                    <img src="assets/images/github.png" alt="Github logo">
+                </a>
+                <a href="https://www.linkedin.com/in/renzompereira/" target="_blank">
+                    <img src="assets/images/linkedin.png" alt="Linkedin logo">
+                </a>
+                <a href="https://www.instagram.com/renzopereira/" target="_blank">
+                    <img src="assets/images/instagram.png" alt="Instagram logo">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="name" id="name">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="password">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </label>
+                    
+                    <div id="forgot_password">
+                        <a href="#">Forgot your password</a>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" id="login_button" >Login</button>
+        </form>
+    </main>
+
+
+
+
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
