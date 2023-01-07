@@ -13,13 +13,16 @@
     --color-blue-100: #5BC1EB;
     --color-blue-200: #4898B8;
 
-    --color-modeDark-50: #455559;
+    /*--color-modeDark-50: #455559;
     --color-modeDark-100: #28403D;
     --color-modeDark-200: #182625;
 
+    Estou tentando adicionar o modo dark tbm no main
+    */
+
     --color-gradientLigth: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200)); 
 
-    --color-gradientDark: linear-gradient(90deg, var(--color-modeDark-50), var(--color-modeDark-100), var(--color-modeDark-200));
+    /* --color-gradientDark: linear-gradient(90deg, var(--color-modeDark-50), var(--color-modeDark-100), var(--color-modeDark-200)); */
 } 
 
 * {
@@ -158,6 +161,8 @@
 .dark#login .input-field i {
     color: var(--color-light-50);
 }
+
+
 
 @keyframes dark-to-light {
     0% {
