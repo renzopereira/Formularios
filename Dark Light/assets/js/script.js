@@ -2,13 +2,12 @@ const mode = document.getElementById('mode_icon');
 
 mode.addEventListener('click', () => {
     const form = document.getElementById('login');
-    const main = document.getElementById('container');
     if (mode.classList.contains('fa-moon')) {
         mode.classList.remove('fa-moon');
         mode.classList.add('fa-sun');
 
         form.classList.add('dark');
-        main.classList.add('dark');
+        fundo.classList.add('dark');
         return;
     }
 
